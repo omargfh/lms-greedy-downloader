@@ -1,0 +1,7 @@
+user_courses = lambda domain, user_id: f"https://{domain}/api/v1/users/{user_id}/courses?per_page=1000"
+user_root = lambda domain, user_id: f"https://{domain}/api/v1/users/{user_id}/folders/root"
+course_groups = lambda domain, course_id: f"https://{domain}/api/v1/courses/{course_id}/groups?per_page=1000"
+course_modules = lambda domain, course_id: f"https://{domain}/api/v1/courses/{course_id}/modules?per_page=1000"
+course_folders = lambda domain, course_id: f"https://{domain}/api/v1/courses/{course_id}/folders/root"
+group_folders = lambda domain, group_id: f"https://{domain}/api/v1/groups/{group_id}/folders/root"
+module_items = lambda domain, course_id, module_id: f"https://{domain}/api/v1/courses/{course_id}/modules/{module_id}/items?per_page=1000"

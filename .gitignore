@@ -1,0 +1,14 @@
+tmp/**/*
+tmp/*
+tmp
+
+canvas/**/*
+canvas/*
+canvas
+
+__pycache__/**/*
+__pycache__/*
+__pycache__
+
+*.pyc
+*.pkl
